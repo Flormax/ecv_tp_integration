@@ -1,0 +1,52 @@
+// Google Fonts
+@import url("http://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400italic,700italic,400,700")
+
+// Font Variables
+$alfa-slab: 'Alfa Slab One'
+$gentium-book: 'Gentium Book Basic'
+
+@import 'normalize.scss'
+@import "header.sass"
+@import "exercices.sass"
+@import "simple-grid.scss"
+@import "students.sass"
+
+
+
+*, *:before, *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+a
+  text-decoration: none
+  color: inherit
+
+.hidden
+  display: none
+
+.blue-char
+  color: #00a0e6
+
+body
+  background-color: #252727
+
+.my-container
+  max-width: 90%
+  margin: auto
+  font-family: $gentium-book
+  font-size: 16px
+  margin-top: 100px
+  z-index: 10
+
+@media screen and (max-width: 1024px)
+  .large-screen
+    display: none
+  .small-screen
+    display: inherit
+
+@media screen and (min-width: 1024px)
+  .small-screen
+    display: none
+  .large-screen
+    display: inherit
