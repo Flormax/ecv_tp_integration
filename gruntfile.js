@@ -23,7 +23,8 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'assets/css/build/index.min.css': 'assets/sass/src/index.sass'
+          'assets/css/build/index.min.css': 'assets/sass/src/index/index.sass',
+          'assets/css/build/zengarden.min.css': 'assets/sass/src/zengarden/zengarden.sass'
         }
       }
     },
@@ -46,7 +47,7 @@ module.exports = function(grunt) {
     },
     watch: {
       sass:{
-        files: ['assets/sass/src/*.sass'],
+        files: ['assets/sass/src/*.sass', 'assets/sass/src/index/*.sass', 'assets/sass/src/zengarden/*.sass'],
         tasks: ['sass'],
         options: {
           livereload: true
