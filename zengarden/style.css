@@ -1,0 +1,195 @@
+/* ~~~~~~~~~~~~~RESET~~~~~~~~~~~~~ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ~~~~~~~~~~~~~GENERAL~~~~~~~~~~~~~ */
+body {
+  background-image: url('photo002.jpg');
+  margin: 0;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+  font-family: 'cambria';
+}
+
+h2 {
+    font-size:14px;
+}
+
+h3 {
+  display: inline-block;
+  color: #8F9C9C;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, "sans-serif" ;
+  font-size: 12px;
+  color: #666666;
+}
+
+.page-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #1b3c29;
+  overflow: hidden;
+}
+
+
+/* ~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~ */
+.intro{
+  border: 0px none;
+  display: block;
+}
+
+header {
+  background-image: url('photo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  display: inline-block;
+  padding-top: 40px;
+  margin-left: 30px;
+  font-size: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+
+header h2 {
+  margin: 0;
+  padding-left: 30px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
+  text-transform: none;
+  font-weight: lighter;
+}
+
+
+/* ~~~~~~~~~~~~~SUMMARY~~~~~~~~~~~~~ */
+#zen-summary {
+    background-color: #266934;
+    margin: 0;
+    padding: 36px 120px;
+}
+
+#zen-summary p {
+  color: #e1e3de;
+  text-align: center;
+  font-family: 'cambria';
+}
+
+#zen-summary p:nth-child(1) {
+  font-size: 26px; margin-bottom: 20px;
+}
+
+#zen-summary p:nth-child(2) {
+  font-size: 12px;
+}
+
+#zen-summary a {
+  color:#0d3c1a;
+}
+
+
+/* ~~~~~~~~~~~~~PREAMBLE~~~~~~~~~~~~~ */
+.preamble{
+  background-color: #DFDFDF;
+  padding: 30px 110px;
+}
+
+.preamble h3{
+  border-bottom: 1px solid rgba(92,82,91,0.4);
+  margin: 0 0 10px -10px;
+  color: #5c525b;
+}
+
+
+/* ~~~~~~~~~~~~~SUPPORTING~~~~~~~~~~~~~ */
+#zen-supporting {
+    width: 80%;
+    float: left;
+    clear: both;
+    background-color: #305f4b;
+}
+
+#zen-supporting h3 {
+  border-bottom: 1px solid rgba(229,180,137,0.3);
+  color: #dfbb71;
+  margin: 0 0 10px -10px;
+}
+
+#zen-supporting p {
+  color: #dfdfdf;
+}
+
+#zen-supporting a {
+  color: #0c3022;
+  text-decoration:none;
+  font-family: 'cambria';
+  font-weight: bold;
+}
+
+#zen-supporting div {
+  margin: 30px 30px 0px 100px;
+}
+
+#zen-requirements {
+  padding-bottom: 40px;
+}
+
+
+/* ~~~~~~~~~~~~~SIDEBAR~~~~~~~~~~~~~ */
+.sidebar {
+    width: calc( 20% - 40px );
+    float: left;
+    background-color: #1b3c29;
+    padding: 65px 20px 0 20px;
+}
+
+.sidebar h3 {
+  border-bottom: 1px solid rgba(229,180,137,0.3);
+  color: #dfbb71;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.sidebar li {
+    font-size: 10px;
+    color: #537768;
+    margin-top: 10px;
+}
+
+.sidebar a {
+    color: #6ba16f;
+}
+.sidebar li{
+  font-size: 10px;
+  margin: 10px;
+}
+
+.sidebar ul{
+  margin: 0 0 40px 10px;
+}
+
+
+/* ~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~ */
+footer {
+    background-color:#557769;
+    padding: 18px 0 12px 0;
+    text-align:center;
+}
+
+#zen-supporting footer a {
+    color: #dfbb71;
+    font-size: 10px;
+    text-decoration: underline;
+}

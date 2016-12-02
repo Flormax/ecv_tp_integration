@@ -19,12 +19,8 @@ module.exports = function(grunt) {
     },
     sass: {
       dist: {
-        options: {
-          style: 'compressed'
-        },
         files: {
-          'assets/css/build/index.min.css': 'assets/sass/src/index/index.sass',
-          'assets/css/build/zengarden.min.css': 'assets/sass/src/zengarden/zengarden.sass'
+          'assets/css/build/index.css': 'assets/sass/src/index/index.sass',
         }
       }
     },

@@ -1,29 +1,32 @@
-.inline-table
-  display: inline-table
-  table-layout: fixed
-  border-spacing: 20px
-  margin: -15px -10px
-
-.students
-  h2
-    width: 250px
-    color: white
-    margin: auto
-    margin-top: 30px
-
-  img
-    height: 150px
-    width: 150px
-    margin: 0
-    /*margin-bottom: -5px
-
-.cell
-  margin: 5px
-  padding: 0
-  display: table-cell
-  border: 1px solid black
-  height: 150px
-  width: 150px
+$mesure: 175px
 
 .students
   text-align: center
+
+  .my-table
+    margin: auto
+    margin-top: -10px
+
+  .my-cell
+    display: inline-table
+    position: relative
+    margin: 20px
+    height: $mesure
+    width: $mesure
+    img
+      height: $mesure
+      width: $mesure
+      margin: 0
+      border: 0px none
+      display: block
+
+    .my-hover
+      @include my-hover()
+      height: $mesure
+      line-height: $mesure
+      width: $mesure
+      position: absolute
+
+  .my-cell:hover
+    .my-hover
+      @include my-hover-hovered()
